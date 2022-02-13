@@ -22,7 +22,7 @@
   padding: 30px;
   margin: 20px 0;
   border-radius: 20px;
-  box-shadow: 10px 15px 15px rgba(0 0 0 / 10%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   border: #ab4967;
   border-style: dotted;
 }
@@ -36,7 +36,8 @@
   padding: 6px 4px;
   border-radius: 6px;
   border: 1px solid #484a47;
-  color: #484a47;
+  color: white;
+  background: #ab4967;
 }
 
 .Dictionary .hint {
