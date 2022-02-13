@@ -7,3 +7,20 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
+footer {
+  background: #8896ab;
+  border-radius: 25px;
+  margin: 30px 0px;
+  padding: 20px 20px;
+  border: 3px;
+  border-style: solid;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  border-color: #0a2c9b;
+  color: antiquewhite;
+}
+
+a {
+  font-style: none;
+  color: antiquewhite;
+}
