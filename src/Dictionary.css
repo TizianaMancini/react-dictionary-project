@@ -5,13 +5,10 @@
   padding: 20px 20px;
 }
 
-.Dictionary {
-}
-
 .App-header {
   text-align: center;
   font-size: 40px;
-  color: #ffd5c2;
+  color: #ab4967;
 }
 
 .App-footer {
@@ -19,6 +16,23 @@
   margin: 30px 0;
 }
 
-.Results {
-  margin-top: 20px;
+.Dictionary section {
+  background: #ffd5c2;
+  padding: 30px;
+  margin: 20px 0;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px rgba(0 0 0 / 10%);
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border-radius: 6px;
+  border: 1px solid #484a47;
+  color: #484a47;
+}
+
+.Dictionary .hint {
+  font-size: 15px;
+  margin-top: 5px;
 }
