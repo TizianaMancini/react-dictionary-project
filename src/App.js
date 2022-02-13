@@ -11,7 +11,15 @@ export default function App() {
       </div>
       <footer className="App-footer">
         <small>
-          Coded by Tiziana Mancini using{" "}
+          Coded by{" "}
+          <a
+            href="www.linkedin.com/in/tiziana-mancini Tiziana Mancini using"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Tiziana Mancini
+          </a>{" "}
+          using{" "}
           <a
             href="https://github.com/TizianaMancini/react-dictionary-project"
             target="_blank"
