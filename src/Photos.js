@@ -6,13 +6,13 @@ export default function Photos(props) {
     return (
       <section className="Photos">
         <div className="row">
-          {props.photos.map(function (photo, index) {
+          {props.photos.photos.map(function (photo, index) {
             return (
               <div className="col-4" key={index}>
                 <a href={photo.src.original} target="_blank" rel="noreferrer">
                   <img
                     src={photo.src.landscape}
-                    alt={props.results.word}
+                    alt={photo.alt}
                     className="img-fluid"
                   />
                 </a>
